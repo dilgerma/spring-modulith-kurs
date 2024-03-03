@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43bb1381-c216-46c0-b3c1-1a47f22b06f8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/domain/ToDoAggregate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/domain/ToDoAggregate.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/slices/startsession/StartSessionCommandHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/slices/startsession/StartSessionCommandHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.yo-rc.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.yo-rc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,10 +85,11 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/slices/" />
       <recent name="$PROJECT_DIR$/src/main/resources/db" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ApplicationStarter">
+  <component name="RunManager" selected="JUnit.ModuleTest.verifyModules">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -100,6 +103,27 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModuleTest.verifyModules" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ToDo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.nebulit.todo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.nebulit.todo" />
+      <option name="MAIN_CLASS_NAME" value="de.nebulit.todo.ModuleTest" />
+      <option name="METHOD_NAME" value="verifyModules" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,6 +162,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ModuleTest.verifyModules" />
         <item itemvalue="Kotlin.ApplicationStarter" />
         <item itemvalue="Kotlin.TestMyApplication" />
       </list>
@@ -181,6 +206,7 @@
       <workItem from="1710046629489" duration="556000" />
       <workItem from="1710047194512" duration="2569000" />
       <workItem from="1709445428128" duration="1171000" />
+      <workItem from="1709448829809" duration="726000" />
     </task>
     <servers />
   </component>
