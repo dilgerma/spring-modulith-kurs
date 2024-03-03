@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43bb1381-c216-46c0-b3c1-1a47f22b06f8" name="Changes" comment="" />
+    <list default="true" id="43bb1381-c216-46c0-b3c1-1a47f22b06f8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/domain/ToDoAggregate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/domain/ToDoAggregate.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/slices/startsession/StartSessionCommandHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/slices/startsession/StartSessionCommandHandler.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +24,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GoLibraries">
@@ -177,6 +180,7 @@
       <workItem from="1709936778768" duration="93000" />
       <workItem from="1710046629489" duration="556000" />
       <workItem from="1710047194512" duration="2569000" />
+      <workItem from="1709445428128" duration="1171000" />
     </task>
     <servers />
   </component>

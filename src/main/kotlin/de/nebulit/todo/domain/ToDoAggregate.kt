@@ -2,6 +2,7 @@ package de.nebulit.todo.domain
 
 import de.nebulit.todo.common.AggregateRoot
 import de.nebulit.todo.common.persistence.InternalEvent
+import de.nebulit.todo.events.SessionStartedEvent
 import jakarta.persistence.*
 import org.hibernate.annotations.JdbcTypeCode
 import java.sql.Types
@@ -27,6 +28,17 @@ class ToDoAggregate(
         return this
     }
 
+    fun applyName(name: String) {
+        //validierung
+        events.add(InternalEvent().apply {
+            this.aggregateId = ToDoAggregate@this.aggregateId
+            this.value = SessionStartedEvent(name, ToDoAggregate@this.aggregateId)
+        })
+    }
+
     companion object {
+        fun newSession(aggregateId: UUID): ToDoAggregate {
+            return ToDoAggregate(aggregateId)
+        }
     }
 }

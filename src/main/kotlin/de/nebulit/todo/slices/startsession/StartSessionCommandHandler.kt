@@ -17,8 +17,7 @@ class StartSessionCommandCommandHandler(
     override fun handle(inputCommand: Command): List<InternalEvent> {
         assert(inputCommand is StartSessionCommand)
         val command = inputCommand as StartSessionCommand
-        val aggregate = findAggregate(command.aggregateId)
-        // TODO process logic
+        var aggregate = ToDoAggregate.newSession(command.aggregateId)
         aggregateService.persist(aggregate)
         aggregate.events.forEach {
              applicationEventPublisher.publishEvent(it.value as Any)
