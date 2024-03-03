@@ -4,115 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43bb1381-c216-46c0-b3c1-1a47f22b06f8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.yo-rc.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.yo-rc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/SpringApp.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/addtodo/AddTodoCommand.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/addtodo/AddTodoCommandHandler.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/common/AggregateRoot.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/common/AggregateService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/common/Command.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/common/CommandException.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/common/CommandHandler.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/common/Event.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/common/Processor.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/common/ReadModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/common/persistence/InternalEvent.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/common/persistence/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/domain/TodoAggregate.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/events/TodoAddedEvent.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/support/TodoAggregateService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1__create_table.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/de/nebulit/todo/ModuleTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/de/nebulit/todo/TestApplication.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/de/nebulit/todo/common/support/BaseIntegrationTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/de/nebulit/todo/common/support/RandomData.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ToDo.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V1__create_table.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/nebulit/todo/SpringApp$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/nebulit/todo/SpringApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/nebulit/todo/common/AggregateRoot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/nebulit/todo/common/AggregateService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/nebulit/todo/common/BaseCommandHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/nebulit/todo/common/Command.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/nebulit/todo/common/CommandDecision.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/nebulit/todo/common/CommandException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/nebulit/todo/common/CommandHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/nebulit/todo/common/DelegatingCommandHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/nebulit/todo/common/Event.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/nebulit/todo/common/EventState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/nebulit/todo/common/Processor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/nebulit/todo/common/ProcessorReadModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/nebulit/todo/common/ReadModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/nebulit/todo/common/persistence/EventsEntityRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/nebulit/todo/common/persistence/InternalEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/nebulit/todo/common/persistence/XmlPayloadConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/nebulit/todo/common/persistence/package-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/nebulit/todo/domain/TodoAggregate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/nebulit/todo/events/TodoAddedEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/nebulit/todo/support/TodoAggregateService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/nebulit/todo/support/TodoRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-de.nebulit.todo.ModuleTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/de.nebulit.todo.ModuleTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/ToDo.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/de/nebulit/todo/ModuleTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/de/nebulit/todo/common/support/BaseIntegrationTest$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/de/nebulit/todo/common/support/BaseIntegrationTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/de/nebulit/todo/common/support/BaseIntegrationTestKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/de/nebulit/todo/common/support/RandomData$newInstance$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/de/nebulit/todo/common/support/RandomData$newInstance$parameters$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/de/nebulit/todo/common/support/RandomData$newInstance$parameters$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/de/nebulit/todo/common/support/RandomData$newInstance$parameters$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/de/nebulit/todo/common/support/RandomData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Todo2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Todo2/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Todo2/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Todo2/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Todo2/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Todo2/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Todo2/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Todo2/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Todo2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Todo2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Todo2/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Todo2/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Todo2/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Todo2/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Todo2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Todo2/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Todo2/src/main/resources/db/migration/V1__create_table.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Todo2/target/classes/META-INF/ToDo.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Todo2/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Todo2/target/classes/db/migration/V1__create_table.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Todo2/target/test-classes/META-INF/ToDo.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../generators/app/templates/src/SpringApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../generators/app/templates/src/SpringApp.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../generators/slices/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../generators/slices/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../generators/slices/templates/src/components/RestResource.kt.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/../generators/slices/templates/src/components/RestResource.kt.tpl" afterDir="false" />
-    </list>
+    <list default="true" id="43bb1381-c216-46c0-b3c1-1a47f22b06f8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -284,6 +176,7 @@
       <workItem from="1709936161467" duration="4000" />
       <workItem from="1709936778768" duration="93000" />
       <workItem from="1710046629489" duration="556000" />
+      <workItem from="1710047194512" duration="2569000" />
     </task>
     <servers />
   </component>
