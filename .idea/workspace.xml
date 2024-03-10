@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="43bb1381-c216-46c0-b3c1-1a47f22b06f8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/slices/startsession/StartSessionCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/startsession/internal/StartSessionCommand.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/slices/startsession/StartSessionCommandHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/startsession/internal/StartSessionCommandHandler.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/slices/startsession/StartSessionRessource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/startsession/internal/StartSessionRessource.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +86,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources/db" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ModuleTest.verifyModules">
+  <component name="RunManager" selected="JUnit.ModuleTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -103,6 +100,26 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModuleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ToDo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.nebulit.todo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.nebulit.todo" />
+      <option name="MAIN_CLASS_NAME" value="de.nebulit.todo.ModuleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,6 +179,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ModuleTest" />
         <item itemvalue="JUnit.ModuleTest.verifyModules" />
         <item itemvalue="Kotlin.ApplicationStarter" />
         <item itemvalue="Kotlin.TestMyApplication" />
@@ -206,7 +224,10 @@
       <workItem from="1710046629489" duration="556000" />
       <workItem from="1710047194512" duration="2569000" />
       <workItem from="1709445428128" duration="3050000" />
-      <workItem from="1709448829809" duration="726000" />
+      <workItem from="1709448829809" duration="1388000" />
+      <workItem from="1709465245316" duration="91000" />
+      <workItem from="1709469842347" duration="125000" />
+      <workItem from="1710081125893" duration="975000" />
     </task>
     <servers />
   </component>
