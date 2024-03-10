@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43bb1381-c216-46c0-b3c1-1a47f22b06f8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/startsession/internal/DummyListener.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/slices/startsession/StartSessionCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/startsession/internal/StartSessionCommand.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/slices/startsession/StartSessionCommandHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/startsession/internal/StartSessionCommandHandler.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/slices/startsession/StartSessionRessource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/startsession/internal/StartSessionRessource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/domain/ToDoAggregate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/domain/ToDoAggregate.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/startsession/internal/StartSessionCommandHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/startsession/internal/StartSessionCommandHandler.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +89,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources/db" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ModuleTest.verifyModules">
+  <component name="RunManager" selected="Kotlin.ApplicationStarter">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -162,8 +162,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ModuleTest.verifyModules" />
         <item itemvalue="Kotlin.ApplicationStarter" />
+        <item itemvalue="JUnit.ModuleTest.verifyModules" />
         <item itemvalue="Kotlin.TestMyApplication" />
       </list>
     </recent_temporary>
@@ -231,5 +231,32 @@
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/startsession/internal/DummyListener.kt</url>
+          <line>18</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/startsession/internal/StartSessionCommandHandler.kt</url>
+          <line>23</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/de/nebulit/todo/startsession/internal/StartSessionCommandHandler.kt</url>
+          <line>25</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

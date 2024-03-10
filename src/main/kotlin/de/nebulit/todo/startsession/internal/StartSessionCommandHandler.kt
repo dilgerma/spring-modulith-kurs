@@ -5,6 +5,7 @@ import de.nebulit.todo.common.persistence.InternalEvent
 import org.springframework.stereotype.Component
 import org.springframework.context.ApplicationEventPublisher
 import de.nebulit.todo.domain.ToDoAggregate
+import org.springframework.transaction.annotation.Transactional
 import java.util.UUID
 
 
@@ -14,6 +15,7 @@ class StartSessionCommandCommandHandler(
     private var applicationEventPublisher: ApplicationEventPublisher
 ) : BaseCommandHandler<ToDoAggregate>(aggregateService) {
 
+    @Transactional
     override fun handle(inputCommand: Command): List<InternalEvent> {
         assert(inputCommand is StartSessionCommand)
         val command = inputCommand as StartSessionCommand
@@ -21,7 +23,7 @@ class StartSessionCommandCommandHandler(
         aggregate.applyName(command.name)
         aggregateService.persist(aggregate)
         aggregate.events.forEach {
-             applicationEventPublisher.publishEvent(it.value as Any)
+            it.value?.let { it1 -> applicationEventPublisher.publishEvent(it1) }
         }
         return aggregate.events
     }

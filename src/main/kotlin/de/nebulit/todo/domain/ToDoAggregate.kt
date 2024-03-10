@@ -31,8 +31,8 @@ class ToDoAggregate(
     fun applyName(name: String) {
         //validierung
         events.add(InternalEvent().apply {
-            this.aggregateId = ToDoAggregate@this.aggregateId
-            this.value = SessionStartedEvent(name, ToDoAggregate@this.aggregateId)
+            this.aggregateId = this@ToDoAggregate.aggregateId
+            this.value = SessionStartedEvent(name, this@ToDoAggregate.aggregateId)
         })
     }
 
